@@ -1,0 +1,121 @@
+*{/*CONFIGURAÇÃO INICIAL*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/*ESTILIZANDO O CABEÇALHO*/
+
+body{
+    background-color: #E7E7E7;
+    padding-top: 100px;
+}
+
+header{/*Reloca a imagem para o lado da tela e centraliza verticalmente*/
+    display: flex;
+    align-items: center; /*centraliza o item verticalmente*/
+    margin-bottom: 40px; /*separa o cabeçalho dos inputs*/
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: bold;
+
+}
+
+header img{
+    height: 36px;/* tamanho dos emojis*/
+    margin-right: 16px;
+}
+
+.container{
+    max-width: 960px; /* visualização do conteúdo em todo ecrã*/
+    width: 100%;
+    margin: 0 auto; /*centraliza o contaúdo na horizontal*/
+}
+
+/*ESTILIZANDO O FORMULÁRIO*/
+
+
+form{
+    display: flex; /*Junta o button com o input*/
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+    
+    
+}
+
+form input{
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    border: none;/*retira todas as bordas*/
+    border-bottom: 2px solid; /*faz uma borda na parte de baixo do input*/
+    padding: 8px; /*espaçamento do conteúdo dentro do input referente as bordas*/
+}
+
+form button{
+    background-color: green;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer; /*seta transforma em mao quando sobre o link*/
+}
+
+
+/*ESTILIZANDO A TABELA*/
+
+table{
+    width:100%;
+}
+
+table th{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    padding: 16px; /*separa os elementos do cabeçalho da tabela*/
+    border-bottom: 2px solid;
+    font-size: 20px;
+
+}
+
+table td{
+    padding: 8px;
+    text-align: center; /*centraliza os items horizontalmentes*/
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3
+    );
+
+}
+
+
+tbody img{/*tamanho do emoji*/
+    height: 30px;
+}
+
+
+
+/*ESTILIZANDO O FOOTER*/
+
+tfoot td{
+    margin-top: 50px;
+}
+
+.resultado{
+    background-color:  black;
+    color: white;
+    padding: 8px; /* aumenta o tamanho da delimitação do reprovado*/
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+
+.aprovado{
+    background-color: green;
+}
+
+.reprovado{
+    background-color: red;
+}
